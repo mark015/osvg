@@ -115,6 +115,7 @@ $(document).ready(function () {
         $('#cropCheckbox input[type="checkbox"]:checked').each(function () {
             cropIds.push($(this).val()); // Collect checked crop IDs
         });
+        
         const from = $("#from").val();
         const to = $("#to").val();
 
